@@ -59,7 +59,7 @@ namespace Builder
                 str_save_txt.Text = sfd.FileName;
             }
         }
-        private static void FileToBase64(string inputFile, string outputFile) // Belirtilen kaynak dosyayı base64'e çevirir.
+        private static void FileToBase64(string inputFile, string outputFile) 
         {
  
             byte[] bytes = File.ReadAllBytes(inputFile);
@@ -70,7 +70,7 @@ namespace Builder
 
         private void Btn_convert_Click(object sender, EventArgs e)
         {
-            FileToBase64(str_malware.Text, str_save_txt.Text); //düzelcek
+            FileToBase64(str_malware.Text, str_save_txt.Text);
             MessageBox.Show("It was successfully created.");
         }
 
