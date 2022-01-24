@@ -109,7 +109,7 @@
             this.txt_url.Name = "txt_url";
             this.txt_url.Size = new System.Drawing.Size(199, 20);
             this.txt_url.TabIndex = 0;
-            this.txt_url.Text = "http://localhost/ax0n/updates.txt";
+            this.txt_url.Text = "http://localhost/test/updates.txt";
             // 
             // groupBox2
             // 
@@ -202,10 +202,10 @@
             // lbl_horus
             // 
             this.lbl_horus.AutoSize = true;
-            this.lbl_horus.Font = new System.Drawing.Font("Harlow Solid Italic", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_horus.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_horus.Location = new System.Drawing.Point(145, 140);
             this.lbl_horus.Name = "lbl_horus";
-            this.lbl_horus.Size = new System.Drawing.Size(98, 36);
+            this.lbl_horus.Size = new System.Drawing.Size(98, 33);
             this.lbl_horus.TabIndex = 5;
             this.lbl_horus.Text = "Horus";
             // 
@@ -241,7 +241,7 @@
             this.MaximizeBox = false;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Horus v1.5 Builder | By Antidote";
+            this.Text = "Horus v1.5.2 Builder | by Antidote";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

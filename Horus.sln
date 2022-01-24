@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horus.Plugin.Core", "Horus.PluginLib\Horus.Plugin.Core.csproj", "{EE3FFEB0-1238-4DE9-A389-BE5883244CD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horus.Plugin.Core", "Horus.Plugin.Core\Horus.Plugin.Core.csproj", "{EE3FFEB0-1238-4DE9-A389-BE5883244CD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horus.Plugin.Example", "Horus.Example.Plugin\Horus.Plugin.Example.csproj", "{5F57951A-C45B-4C97-A48F-0B4CEB5BFCD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horus.Plugin.Example", "Horus.Plugin.Example\Horus.Plugin.Example.csproj", "{5F57951A-C45B-4C97-A48F-0B4CEB5BFCD6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horus.Stub", "Horus.Stub\Horus.Stub.csproj", "{D8A1BFDB-369B-4C91-AB6F-867963438E04}"
 EndProject
