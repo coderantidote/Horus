@@ -13,7 +13,8 @@ namespace Hstub
         static void Main()
         {
             
-           EmbeddedAssembly.Load("HStub.Resources.HPlugin.dll", "HPlugin.dll");
+            EmbeddedAssembly.Load("HStub.Resources.HPlugin.dll", "HPlugin.dll");
+            EmbeddedAssembly.Load("HStub.Resources.LinqBridge.dll", "LinqBridge.dll");
             AppDomain.CurrentDomain.AssemblyResolve += new ResolveEventHandler(CurrentDomain_AssemblyResolve);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

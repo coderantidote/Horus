@@ -29,7 +29,7 @@ namespace Plugin.Core
     public class PluginLoader
     {
 
-        public static IPluginInterface[] GetPlugins(string url) // arguman webten gelcek
+        public static IPluginInterface[] GetPlugins(string url)
         {
             Uri myUri = new Uri(url);
             List<IPluginInterface> plugins = new List<IPluginInterface>();

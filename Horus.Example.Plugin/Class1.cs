@@ -5,14 +5,8 @@ namespace PluginLibrary
 {
     public class ReverseTest : IPluginInterface
     {
-        public string Name
-        {
-            get { return "Example "; } // generate new plugin 
-        }
-        public string Ver
-        {
-            get { return "1.0"; } // generate new plugin 
-        }
+        public string Name =>  "Example ";
+        public string Ver => "1.0";
         public string Action(string[] args)
         {
             Console.WriteLine(args[0]);
