@@ -92,7 +92,7 @@
             this.txt_sname.Name = "txt_sname";
             this.txt_sname.Size = new System.Drawing.Size(82, 20);
             this.txt_sname.TabIndex = 3;
-            this.txt_sname.Text = "malware.exe";
+            this.txt_sname.Text = "susp.exe";
             // 
             // label1
             // 
