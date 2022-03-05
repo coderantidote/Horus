@@ -1,4 +1,4 @@
-# Horus  <sub><sup>([H] orus [O] bfuscate [R] emote [U] pdate [S] ystem)</sup></sub>
+# <img  width="32" height="32" src="Assets/eye.png"> Horus <sub><sup>([H] orus [O] bfuscate [R] emote [U] pdate [S] ystem)</sup></sub>
 
 Horus is a web-based plugin installation system. It does not keep any files on the disk. You can install more than one plugin. You need to create your plugins in c#. Updates are applied when the program is restarted after making changes to the plugins on the web.
 
